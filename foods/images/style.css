@@ -34,7 +34,7 @@ html {
     text-align: center;
     text-transform: capitalize;
     letter-spacing: 0.5rem;
-    text-shadow: .3rem .3rem .3rem #000;
+    text-shadow: 0.3rem 0.3rem 0.3rem #000;
 }
 
 .section-1-icons i{
@@ -42,13 +42,12 @@ html {
     color: #a79a2d;
     position: absolute;
     transform: translate(-50%, -50%) scale(0);
-    text-shadow: .2rem .2rem .2rem #000;
+    text-shadow: 0.2rem 0.2rem 0.2rem #000;
+    transition: transform .3s;
 }
 
 .section-1-icons i.change {
     transform: translate(-50%, -50%) scale(1);
+    transition: transform 0.3s 0.3s;
 }
 /*End of section-1*/
-
-/**/
-/**/
